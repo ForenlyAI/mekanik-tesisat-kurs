@@ -103,7 +103,7 @@ def cakisma(yol, rapor):
 
 
 def ids_dosyasi(yol):
-    k = ids.Ids(title="Mekanik tesisat teslim kuralları", author="bahadir@forenly.ai", version="1.0",
+    k = ids.Ids(title="Mekanik tesisat teslim kuralları", author="Forenly AI Academy", version="1.0",
                 description="Kanal ve menfezlerde hava debisi; mahallerde ad", purpose="Kurs Hafta 3 — kural kontrolü")
     s1 = ids.Specification(name="Her kanal parçasının hava debisi var", ifcVersion=["IFC4X3_ADD2"], minOccurs=1)
     s1.applicability.append(ids.Entity(name="IFCDUCTSEGMENT"))
